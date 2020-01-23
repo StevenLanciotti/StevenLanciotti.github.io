@@ -1,34 +1,54 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-  <section>
-    <h1>
-      <b>
-        Steven Lanciotti
-      </b>
-    </h1>
-  </section>
-  <section>
-    <h2>
 
-      <img width="200"
-        src="data:image/png;base64,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"
-        alt="Best NHL Team" />
-    </h2>
-  </section>
-  <section>
-    <p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
 
-      Islanders are undeniably the best team in the NHL, Lauren agrees!
-
-    </p>
-  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/newapp.js"></script>
+  <!-- <script src="./static/js/bonus.js"></script> -->
 
 </body>
 
