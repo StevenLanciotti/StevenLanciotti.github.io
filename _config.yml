@@ -35,7 +35,7 @@ github:
 favicon: /favicon.ico
 
 # add logo to avatar 
-avatar: /assets/img/avatar.png
+avatar: assets/img/avatar.png
 
 social:
   # Change to your full name.
