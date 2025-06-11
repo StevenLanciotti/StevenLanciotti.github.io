@@ -34,6 +34,9 @@ github:
 # add favicon image
 favicon: /favicon.ico
 
+# add logo to avatar 
+avatar: /assets/img/avatar.png
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
