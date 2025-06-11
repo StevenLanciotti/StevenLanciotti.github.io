@@ -31,7 +31,7 @@ github:
 #twitter:
   #username: twitter_username # change to your Twitter username
 
-# add favicon image
+# add favicon image (image in the url)
 favicon: /favicon.ico
 
 social:
